@@ -1,0 +1,107 @@
+body{
+			    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,
+				Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+				color: black;
+			}
+			.topber{
+				width: 100%;
+			}
+			.container{
+				width: 1000px;
+				height: 100%;
+				margin: 0 auto;
+			}
+			
+			
+			/* --------nevagation bar------------ */
+			
+			/* left side */
+			.header{/* black */
+				height: 80px;
+				background-color: black;
+			}
+			.header .site-logo{/* logoo box */
+				float: left;
+				width: 178px;
+				margin-top: 8px;
+			}
+			.header .site-logo img{/* logo pic */
+				float: left;
+				width: 170px;
+				margin-left: 10px;
+			}
+			.header .site-logo a{
+				display: block;
+				width: 56px;
+				height: 56px;
+			}
+			.header .site-list{/* font */
+				float: left;
+				width: 400px;
+				height: 70px;
+				padding: 10px 0 0 31px;
+				font-size: 21px;
+			}
+			.header .site-list ul li{/* list arrangment */
+				float: left;
+			}
+			.header .site-list ul li a{ /* font */
+				display: block;
+				padding: 15px 10px 18px;
+				color: #FFFFFF;
+			}
+			.header .site-list ul li a:hover{/* mouse */
+				color: coral;
+			}
+			
+			
+			/* search */
+			.header .site-search{
+				float: right;
+				width: 296px;
+				margin-top: 25px;
+				/* background-color: #777; */
+			}
+			.header .site-search from{
+				position: relative;
+				width: 296px;
+				height: 50px;
+			}
+			.search-text{
+				width: 200px;
+				height: 30px;
+				border: 1px solid #E0E0E0;
+				font-size: 14px;
+				padding: 0 10px;
+				float: left;
+				background-color: lightgray;
+			}
+			.submit{/* login */
+			 	float: left;
+				width: 50px;
+				height: 32px; 
+				margin-left: -1px;
+				border:0px solid #E0E0E0; 
+				background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+			}
+			 
+			.login{/* login */
+			 	float: right;
+			 	margin: 24px 20px 0 0;
+			 	color: #FF7F50;
+			}
+			.login img{width: 35px;}
+			.login a{
+				color: #F6F6F6;
+			}
+			.login a:hover{
+			 	color: #FF7F50;
+			}
+			#ship{
+				margin-top: 40px;
+			}
+			.beijing{
+				width: 100%;
+				height: 761px;
+				background-color: #000000;
+			}
