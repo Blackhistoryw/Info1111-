@@ -1,0 +1,317 @@
+\documentclass[a4paper, 11pt]{report}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{fix-cm}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+\usepackage[english]{babel}
+
+\geometry{ margin=30mm }
+\counterwithin{subsection}{section}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\thesection\arabic{subsection}.}
+\usepackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftsecindent}{2.2em}
+\setlength{\cftsubsecindent}{4.2em}
+\setlength{\cftsecnumwidth}{2em}
+\setlength{\cftsubsecnumwidth}{2.5em}
+
+
+\begin{document}
+\titleformat{\section}
+{\normalfont\fontsize{15}{0}\bfseries}{\thesection}{1em}{}
+\titlespacing{\section}{0cm}{0.5cm}{0.15cm}
+\titleformat{\subsection}
+{\normalfont\fontsize{13}{0}\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing{\section}{0cm}{0.5cm}{0.15cm}
+
+%=======================================================================================
+
+% #########################
+% IMPORTANT - Add student names here!
+% e.g. \newcommand{\stud1}{LOWE, David}
+\newcommand{\studA}{{Wu, Xinning}}
+%
+% IMPORTANT - Then give your SIDs
+\newcommand{\sidA}{{500318346}}
+
+%
+% IMPORTANT - And then update which major each student will focus on
+\newcommand{\majA}{{Computer Science}}
+% #########################
+
+
+\pagenumbering{Alph}
+\begin{titlepage}
+\begin{flushright}
+\includegraphics[width=4cm]{USyd}\\[2cm]
+\end{flushright}
+\center 
+\textbf{\huge INFO1111: Computing 1A Professionalism}\\[0.75cm]
+\textbf{\huge 2023 Semester 1}\\[2cm]
+\textbf{\huge Skills: Team Project Report}\\[3cm]
+
+\textbf{\huge Submission number: 3}\\[0.75cm]
+\textbf{Github link: https://github.com/Blackhistoryw/Info1111-}\\[0.75cm]
+\textbf{\huge Team Members:}\\[0.75cm]
+
+\begin{tabular}{|p{0.25\textwidth}|p{0.13\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}|p{0.22\textwidth}|}
+	\hline
+	Name & Student ID & \raggedright{Levels already achieved} & \raggedright{Levels being attempted} & Selected Major \\
+	\hline
+	\hline
+	\raggedright{\studA} & \sidA & X & A B C & \majA \\
+	\hline
+\end{tabular}
+\thispagestyle{empty}
+\end{titlepage}
+\pagenumbering{arabic}
+
+
+%=======================================================================================
+
+\tableofcontents
+
+%=======================================================================================
+
+
+
+%=======================================================================================
+
+\newpage
+\section{Teamwork}
+\label{sect-team}
+
+Each of the following subsections should be completed as a team.
+
+\subsection{Developing industry skills}
+
+This section is completed as a team, and must be satisfactory in order for each team member to be able to achieve level A. Throughout your Computing degree we will help you learn a range of new skills. Once you graduate however you will need to continue to learn new languages, new tools, new applications, etc. For this section you need to identify 5 approaches you can take to this continual learning. You should then put these in order from most effective to least effective, and for each one explain the circumstances in which it might be appropriate. (Target = 100 words per skill = 500 words total)
+
+\begin{itemize}
+\item Self-Directed Online Learning - This approach can be highly effective given the abundance of online resources, including tutorials, online courses, forums, and documentation. It allows for flexibility and learning at your own pace. However, it requires a high level of self-discipline and motivation. This approach is most appropriate when learning a new language or tool that has extensive online resources, or when you're working independently and have the time to direct your own learning.
+
+\item Attending Workshops/Seminars - Workshops or seminars are effective for learning new skills as they provide structured learning experiences, often with a hands-on component. They're often led by industry experts, providing valuable insights. However, they can be time-consuming and not as flexible. This approach is best when a relevant workshop or seminar is available, especially if it provides practical, hands-on experience.
+
+\item Peer Learning - Learning from peers can be beneficial as it promotes collaboration and allows for different perspectives. Peers may have different skillsets or experiences, offering fresh insights. However, the success of this approach relies on the abilities and knowledge of the peers. It is best used when working in a team environment where everyone brings different skills to the table.
+
+\item Mentorship - Being mentored by someone experienced can provide personalized guidance, allowing for targeted learning. However, the effectiveness depends on the availability and expertise of the mentor. This approach is suitable when you have access to a mentor who has expertise in the area I am trying to learn.
+
+\item Reading Books - While books can provide in-depth information, they may not be as up-to-date as online resources. Learning through books is often a slower process, but can be beneficial for gaining a comprehensive understanding of a topic. This approach is suitable when I am learning a fundamental concept that does not change frequently, such as basic programming principles or algorithms.
+\end{itemize}
+
+
+\subsection{Submission 1 contribution overview}
+
+All, since its an one-person team.
+
+\subsection{Submission 2 contribution overview}
+
+All, since its an one-person team.
+
+\subsection{Submission 3 contribution overview}
+
+All, since its an one-person team.
+
+
+%=======================================================================================
+
+\newpage
+\section{Level A: Basic Skills}
+
+\subsection{Skills for \majA: \studA}
+
+
+I will analyze two skills relevant to this major based on the Skills Framework for the Information Age (SFIA).
+
+\begin{enumerate}   
+
+\item Strongest Skill: Programming/Software Development (PROG)
+
+One of the critical skills for a software development major is Programming/Software Development (PROG). This skill is about the design, coding, testing, correction, and documentation of programs. As a software developer, having a strong foundation in programming languages, development tools, and methodologies are key to creating effective software solutions.
+
+I consider myself strongest in this skill, given my extensive experience with various programming languages like Python, JavaScript, and Java. I have successfully implemented several projects, which have reinforced my understanding of data structures, algorithms, and object-oriented programming principles. My GitHub profile hosts various projects demonstrating my proficiency, and I've also participated in coding competitions which have further honed my programming skills.
+
+\item Weakest Skill: Requirements Definition and Management (REQM)
+
+On the other hand, my weakest skill currently is Requirements Definition and Management (REQM), which involves the elicitation, analysis, specification, and validation of requirements, as well as the management of all these processes. Despite being crucial for a software developer, I haven't had much practical experience with this skill.
+
+Effective REQM is critical for software development as it sets the foundation for what needs to be developed and how it should function. Misunderstanding or mismanagement of requirements can lead to project failure. Thus, understanding customer requirements, translating them into technical specifications, and managing changes are skills that every software developer must master.
+\end{enumerate}
+
+To improve my capabilities in this area, I plan to take the following steps:
+\begin{enumerate}
+\item Education: I will enroll in online courses and workshops focused on requirements engineering. Websites like Coursera and edX offer related courses.
+
+\item Practical Experience: I'll try to involve myself in more projects where I can be part of the requirements gathering and management process. This can be in the form of open-source projects or internships.
+
+\item Mentorship: Seeking advice and guidance from experienced professionals can provide me with practical insights that aren't covered in traditional courses.
+\end{enumerate}
+
+By focusing on these steps, I believe I can significantly improve my REQM skills to become a more competent software developer.
+
+
+
+You will need to integrate your information into the shared collaborative LaTeX document and compile the result.
+
+
+
+
+
+%=======================================================================================
+
+\newpage
+\section{Level B: Tools}
+
+Level B focuses on exploration of key tools used within professional computing employment. All companies make use of a range of technologies and tools (often as part of a tech stack). These tools might be implementation languages; design tools; data analysis tools; collaboration technologies, etc. Each student should identify two tools that are widely used in industry and which relate to the major you are focusing on for this project. You should then describe:
+\begin{enumerate}
+	\item The main functionality of those tools;
+	\item The ways in which those tools are used;
+	\item Any weaknesses or limitations of those tools.
+\end{enumerate}
+
+As examples (which you shouldn't now use): Computer Science: eclipse; Software Development: github; Cyber Security: Wireshark; Data Science: Hadoop.
+
+Note also that no two students in the same tutorial should choose the same tools, so your tutor will maintain a list of those that have already been selected. You should therefore check this list and then confirm your choice with your tutor prior to researching your proposed tools and spending time writing about them. (Target = $\sim$200-400 words per tool).
+
+Also, in order to achieve level B each student needs to be able to demonstrate capability with git and compilation of LaTeX documents from the command line. To demonstrate this, your team (or at least those members who are aiming to attempt level B) should do the following:
+\begin{enumerate}
+	\item Select one member to:
+	\begin{enumerate}
+		\item Create a local github repository for the project. This repository should contain the main LaTeX documents, as well as a subdirectory called ''screengrabs'';
+		\item Create a repository on github for the project;
+		\item Connect your local repository to the remote github repo;
+		\item Push your local repository contents to the remote repo;
+		\item Add all team members (and your tutor and unit coordinator) as members to the remote repo;
+	\end{enumerate}
+	\item Each additional group member should then clone the remote repo;
+	\item Each member aiming to achieve level B should then be able to use the remote repo (and pushing and pulling changes) to demonstrate collaborative editing of the LaTeX documents.
+	\item And each member aiming to achieve level B should also do a screengrab (or multiple screengrabs) showing their local successful compilation, on the command line, of the final LaTeX document. This should be added to the screengrabs folder in your local repo and then pushed to the remote repo so that your tutor can view it.
+\end{enumerate}
+
+\subsection{Tools for \majA: \studA}
+
+For the Software Development major, I have selected two widely used industry tools: Visual Studio Code (VS Code) and Docker.
+
+\begin{enumerate}
+
+\item Visual Studio Code (VS Code)
+
+Main Functionality: VS Code is a lightweight, open-source code editor developed by Microsoft. It supports a wide range of programming languages and has a rich ecosystem of extensions for enhancing its functionality. Features like IntelliSense for code completions, debugging, built-in Git, and the ability to customize the work environment make it a preferred choice for many developers.
+
+Usage: VS Code is used for writing and editing code, debugging, version control, and even deploying applications. Developers can install extensions to add language support or features like live share, which allows real-time collaborative coding.
+
+Weaknesses/Limitations: While VS Code is very powerful, its reliance on extensions for many functionalities can sometimes slow it down. Also, although it aims to be a universal editor, it might lack advanced features for specific languages that dedicated IDEs would provide.
+
+\item Docker
+
+Main Functionality: Docker is a platform that uses containerization to make it easier to create, deploy, and run applications. A Docker container packages up an application with all its dependencies, ensuring it will run on any system that has Docker installed, regardless of any customized settings that machine might have.
+
+Usage: Docker is used to create containers for applications, ensuring they can run in any environment. It's beneficial for creating reproducible environments for development, testing, and deployment, and it's widely used in implementing microservices architecture.
+
+Weaknesses/Limitations: Docker containers introduce an extra layer of abstraction, which can sometimes lead to performance degradation. Additionally, it requires a solid understanding of the application architecture and Docker itself to create efficient Dockerfiles and manage containers.
+\end{enumerate}
+
+The workflow for demonstrating the ability with Git and LaTeX compilation:
+\begin{enumerate}
+\item I will create a local and a remote GitHub repository, link them, and push the local contents to the remote repository. 
+
+\item I will clone the remote repository.
+
+\item I aiming for level B will demonstrate collaborative editing of the LaTeX documents by pushing and pulling changes from the remote repository.
+
+\item Additionally, I will also capture a screengrab showing the successful compilation of the final LaTeX document on the command line. This screengrab will be added to the 'screengrabs' folder in the local repository and then pushed to the remote repository.
+\end{enumerate}
+
+%=======================================================================================
+
+\newpage
+\section{Level C: Advanced Skills}
+
+Level C focuses on more advanced technical skills in \LaTeX\ and Git.
+
+The following is a list of advanced Git and \LaTeX\ skills/features. Each student in your team should select a different pair of items from each list (e.g. you might choose "Resetting and Tags" from the git list, and "Cross-referencing and Custom commands" from the LateX list). You then need to demonstrate actual use of each item (either through activity in Git, or through including items in this report). (Target = $\sim$100-200 words per student for each feature).
+\begin{itemize}
+	\item Git
+	\begin{itemize}
+		\item Rebasing and Ignoring files
+		\item Forking and Special files
+		\item Resetting and Tags
+		\item Reverting and Automated merges
+		\item Hooks and Tags
+	\end{itemize}
+	\item \LaTeX\ 
+	\begin{itemize}
+		\item Cross-referencing and Custom commands
+		\item Footnotes/margin notes and creating new environments
+		\item Floating figures and editing style sheets
+		\item Graphics and advanced mathematical equations
+		\item Macros and hyperlinks
+	\end{itemize}
+\end{itemize}
+
+\subsection{Advanced skills: \studA}
+
+As a student focusing on the Computer Science major, I have chosen to explore "Reverting and Automated merges" from Git and "Floating figures and editing style sheets" from LaTeX.
+
+\begin{enumerate}
+    
+\item  Git: Reverting and Automated Merges
+
+Reverting: This feature in Git enables developers to undo any changes made in the commits. By using the git revert command followed by the commit hash, one can easily undo changes made in that specific commit without affecting the history of the project.
+
+Automated Merges: Git supports automated merging of branches. When the branches to be merged do not have conflicting changes, Git can automatically perform the merge operation without human intervention. It reduces the complexity and efforts in maintaining different versions of the project.
+
+For instance, in this project, suppose I made some unwanted changes in a commit, I can use git revert to undo those changes. Furthermore, when I complete individual parts of the project in separate branches, I can use Git's automated merge feature to combine all the changes in the master branch.
+
+\item  LaTeX: Floating Figures and Editing Style Sheets
+
+Floating Figures: LaTeX offers the concept of 'floating figures' for placing images and tables. It allows LaTeX to decide the optimal placement of figures to maintain the best flow of the document. We can specify a preferred location using placements like 'h' (here), 't' (top), 'b' (bottom), and 'p' (page of floats).
+
+Editing Style Sheets: LaTeX allows customization of documents by editing style sheets. By using packages or defining custom commands and environments in the preamble of the LaTeX document, one can change various formatting aspects like margins, font styles, spacing, and many more.
+
+In this report, I can use floating figures to include diagrams, where LaTeX will decide the best place for them. Also, to maintain consistency and readability throughout this document, I will utilize custom style sheets to set a uniform style for headings, text, and spacing.
+
+\end{enumerate}
+
+
+%=======================================================================================
+
+\newpage
+\section{Level D: Evolution of skills}
+
+Level D focuses on understanding how professional practice might evolve in the future. Most students in this unit are likely to be at or near the start of your degree, and so it might be anywhere from 3 to 5 years before you really start working in industry full-time -- and the technology and ways in which people use them can change significantly in that time. 
+
+Your answer to this section you should address the following (Target = $\sim$500 words):
+\begin{enumerate}
+	\item Describe what you believe will be the biggest change in the next 5 years in the tools or technologies that are being actively used in industry practice (in your selected major);
+	\item Revisit the SFIA framework~\cite{sfia} from level A, and identify the one skill that you believe will have the biggest increase in terms of importance over the next 5 years. You should justify your choice.
+\end{enumerate}
+
+
+\subsection{Evolution of \majA: \studA}
+
+Your text goes here
+
+
+
+
+
+%=======================================================================================
+
+\newpage
+\section{Reference}
+\cite{gitscm2023}
+
+\bibliographystyle{ieeetran}
+\bibliography{main}
+
+\end{document}
+\end{report}
